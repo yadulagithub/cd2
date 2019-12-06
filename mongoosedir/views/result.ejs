@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>Car Info</h1>
+
+<form  method="post">
+    <div>
+        <h2>Results from Survey: </h2>
+        <p><%=user%></p>
+      </div>
+  <div>
+    <label for="name">Name:<%=user.name%></label>
+  </div>
+  <div>
+    <label for="Age">Age: <%=user.age%></label>
+  </div>
+        
+  <div class="button">
+      <a href ="/users"><button type="button">goback</button></a>
+  </div>
+</form>
+</body>
+</html>
